@@ -1,0 +1,181 @@
+**********Hardware Check List**********
+Total RAM is              :94.6051
+Free Memory is            :46.5648
+No.of CPU          :12
+Kernal Patch              :[noop] deadline cfq             :512
+**********NETSim Check List**********
+Netsim Current Version            :ieatnetsimv5039-01: * NETSim UMTS R28F 
+**********Patch List**********
+
+Installed Patches are             :>> .show patch info
+Number   Description
+P04983   NS-4829 <create-subscription> with filter issue extended to 16A and 16B versions of dg2
+P04952_UMTS_R28F   Yang support without printings
+P04952   Yang support without printings
+P04940   NSS-1320: objectCreated notification sent during replay to contain all attributes (i.e. should be similar to original notification)
+P04929_UMTS_R28F   Yang support for spitfire nodes with to connect to multiple netopeers on different ports and modified channel handling
+P04860_UMTS_R28F   1226-Reverting changes for system-created mos
+P04851_UMTS_R28F   Wrong file name format for SGSN-MME in new 15.17 sims
+P04842_UMTS_R28F   NETSim R28F: sendalarm is not working for sgsn node
+P04834   NS-4829: <create-subscription> with filter not working
+P04818_UMTS_R28F   CMPv2 enrollment for certConf
+P04810_UMTS_R28F   PM files are no more generated on LTE09dg2ERBS00019 on deployment 5296
+P04809_UMTS_R28F   NS-4798:Ftp associations support for TCU04 nodes
+P04808_UMTS_R28F   ARNE Import Failing for Edge Router
+P04791_UMTS_R28F   NS-4614 SCEP/ CMP enrollment is failing due to node/netsim issues in R28E
+P04789_UMTS_R28F   System created MO checks have been corrected
+P04786_UMTS_R28F   NS-4741 NS-4789 Mismatch of STG pointer for SCF Delta ROPCR File for G31 paramaters
+P04763_UMTS_R28F   ENM - Cell Trace File generation for G2 nodes (MSRBSV2/Radio nodes)
+P04751_UMTS_R28F   NS-4616 Changes in SNMP FM Support via <invoke-cli> capability
+P04745_UMTS_R28F   NSS:878 Primary type to be changed for MSRBS-V2 and TCU nodes
+P04742_UMTS_R28F   NSS-530 OSSRC - G-092 Update - GRAN_CM
+P04741_UMTS_R28F   NS-4356 ENM - Netsim Radio Node to use port 2024 for PM - sftp protocol
+P04740_UMTS_R28F   NS-4689 Pre-populated active attribute, Product Number & Product Revision values in COM/ECIM Simulations for all 16B node version
+P04736_UMTS_R28F   Unable to start MTAS nodes in netsim
+P04727_UMTS_R28F   ENM - Cell Trace File generation for G2 nodes (MSRBSV2/Radio nodes)
+P04716_UMTS_R28F   NS-4618 cdma2000FreqBandRef not set for LTE-PICO nodes
+P04714_UMTS_R28F   NS-4488 G2 GSM - New COD POD for GRAN_CM - Part 2
+P04712_UMTS_R28F   NS:4250 ENM - Support to configure NETCONF/SNMP port via Netconf
+P04711_UMTS_R28F   NS-4288: NetSim R28E: wrong entry duplication for trap destination ip address (verified in R28F)
+P04710_UMTS_R28F   NS-4609: IPSEC Initial Enrollment Issue In NetSim Version R28E
+P04708_UMTS_R28F   NSS-537:TCU03/TCU04 RadioTNode - BasebandT-CXP9024419 3-R9ACV.zip
+P04707_UMTS_R28F   NS-4356 ENM - Netsim Radio Node to use 2024 port for PM - sftp protocol
+P04704_UMTS_R28F   NS-4452 : GSM G2 ARNE XML Support
+P04699_UMTS_R28F   ENM - Support for Compression type attribute in pmjobs for radio/SGSN nodes
+P04698_UMTS_R28F   Optimizing SwitchMim command to handle duplicated struct members
+P04697_UMTS_R28F   NSS-533:OSSRC - MSRBS_V2 RadioNode 16B - Baseband-CXP9024418_2-R9HY.zip
+P04694_UMTS_R28F   NS:4539 Arne import failing for DG2 LTE nodes
+P04689_UMTS_R28F   NS:4539 Arne import failing for LTEDG2ERBS nodes
+P04687_UMTS_R28F   NS-4560 : Handling null for any datatype while importing kertayle 
+P04686_UMTS_R28F   NS-4539: Arne import of LTEDG2ERBS nodes failing in SIT
+P04682_UMTS_R28F   Create Backup on IPWorks is Failing
+P04681_UMTS_R28F   For DG2 Nodes with NodeBFunction RBS Group association is missing
+P04679_UMTS_R28F   For DG2 Nodes with NodeBFunction RBS Group association is missing
+P04675_UMTS_R28F   NS-4453 G2 GSM - New COD POD for GRAN_CM
+P04674_UMTS_R28F   NS-4519: Netsim node should throw ToOldGenerationCount Exception when ENM queries for get_MIB_changes  from Netsim with GC greater than the Node GC after restart ( This is real Node behaviour )
+P04672_UMTS_R28F   Activation issue with HSS-FE TSP node
+P04658_UMTS_R28F   NS-4492 Upgrade failing due to generation count gap 2
+P04653_UMTS_R28F   Sending SNMP V2C traps from MINI-LINK TN nodes
+P04652_UMTS_R28F   NS:4402 DG2 query support
+P04631_UMTS_R28F   NS-4386 Getting netsim exception for the command RXMOP
+P04605_UMTS_R28F   NS-4268use the dateTimeOffset attribute of Managed Element set in MO browser to set the time zone in generated file
+Started_NES               :>> .show numstartednes
+1441
+**********Simulations Check List**********
+Available Simulations             :
+CORE-4.5K-SGSN-WPP-14B-V10x25
+CORE-4.5K-SGSN-WPP-15A-V5x25
+CORE-4.5K-SGSN-WPP-15B-V6x30
+CORE-ST-MLTN-5.4x5-13
+CORE-ST-SGSN-WPP-14B-V10x5
+CORE-ST-SGSN-WPP-15A-V5x5
+CORE-ST-SGSN-WPP-15B-V6x10
+CORE-ST-SpitFire-16A-V5x5
+LTE15B-V13x160-FTDG2-FDD-LTE08
+LTE16A-V15x160-FTDG2-FDD-LTE07
+LTEE1239x160-FT-FDD-LTE05
+LTEE163-V3x160-FT-FDD-LTE06
+LTEF1107x160-FT-FDD-LTE04
+LTEG1132-limx10-FT-FDD-LTE99
+LTEG1220-limx10-RV-FDD-LTE64
+LTEG1220-limx160-FT-FDD-LTE01
+LTEG1220-limx160-FT-FDD-LTE02
+LTEG1220-limx160-FT-FDD-LTE03
+RNCV53302x1-FT-RBSU410x15-RXIK190x2-RNC04
+RNCV54657x1-FT-RBSU491x10-RXIJ1141x2-RNC06
+Total number of Simulations are           :     20      20     591
+PM data status                :6
+PM Scanners                :0
+Load Balancing            :>> .show serverloadconfig
+
+ Server Configuration      ( 0 - Indicates no configuration)
+=========================================
+ NETSim level load configuration 	:12	
+ Node level load configuration 		:8	[ MSRBS-V2 15B-V13 ]	
+ Node level load configuration 		:8	[ MSRBS-V2 16A-V15 ]	
+ Node level load configuration 		:8	[ MSRBS-V2 16A-V17 ]	
+ Node level load configuration 		:12	[ ERBS G1220-lim ]	
+ Node level load configuration 		:12	[ ERBS F1107 ]	
+ Node level load configuration 		:12	[ ERBS E163-V3 ]	
+ Node level load configuration 		:12	[ ERBS E1239 ]	
+ Node level load configuration 		:12	[ ERBS G1132-lim ]	
+ Node level load configuration 		:8	[ SGSN 14B-WPP-V10 ]	
+ Node level load configuration 		:8	[ SGSN 15A-WPP-V5 ]	
+ Node level load configuration 		:8	[ SGSN 15B-WPP-V6 ]	
+**********YANG Support Check**********
+
+YANG Support Available
+**********Genstats Information**********
+
+####Netsim config file and Crontab related Information####
+
+#!/bin/sh
+PROJECT=O16.1
+SHIPMENT=8
+DEPLOYMENT=LTE
+
+#### NETSIM SERVERS ####!#
+
+SERVERS="ieatnetsimv5039-01"
+
+ieatnetsimv5039_01_list="LTE01 LTE02 LTE03 LTE04 LTE05 LTE06 LTE07 LTE08"
+
+#ieatnetsimv6014_02_mme_list=""
+
+HOST=`hostname`
+HOST_NAME=`echo $HOST | sed s/-/_/g`
+LIST=`eval echo '$'${HOST_NAME}_list`
+#MME_SIM_LIST=`eval echo '$'${HOST_NAME}_mme_list`
+
+
+#SGSN_TZ="EST"
+
+PREDEFINED_STATS_SCANNER_STATE=SUSPENDED
+
+#SGSN_LIST=`ls /netsim/netsimdir/ |grep SGSN|grep -v "zip"`
+STATS_WORKLOAD_LIST="1:ALL"
+RECORDING_WORKLOAD_LIST="1:ALL"
+
+####LIMITBANDWIDTH#####
+#BANDWIDTH_ERBS=3072
+#BANDWIDTH_MSRBS_V2=3072
+NETWORK_DELAY=30
+
+########## rmPmFiles retention values########
+XML_RETENTION=48
+BIN_RETENTION=6
+
+############ Celltrace and UETRACE file generation############
+LTE_UETRACE_LIST="${LTE_UETRACE_LIST} 154kb_ue_trace.gz:LTE01:1:4:1:64"
+LTE_UETRACE_LIST="${LTE_UETRACE_LIST} 154kb_ue_trace.gz:LTE02:1:64:65:64"
+LTE_UETRACE_LIST="${LTE_UETRACE_LIST} 154kb_ue_trace.gz:LTE03:1:64:129:128"
+LTE_UETRACE_LIST="${LTE_UETRACE_LIST} 154kb_ue_trace.gz:LTE04:1:64:257:256"
+LTE_UETRACE_LIST="${LTE_UETRACE_LIST} 154kb_ue_trace.gz:LTE05:1:16:513:16"
+
+
+
+LTE_CELLTRACE_LIST="celltrace_256k.bin.gz:1:1 celltrace_4.7M.bin.gz:1:3"
+MSRBS_V2_LTE_CELLTRACE_LIST="celltrace_256k.bin.gz:1:1 celltrace_4.7M.bin.gz:1:3"
+MSRBS_V2_LTE_UETRACE_LIST="154kb_ue_trace.gz:LTE07:1:4:1:8"
+
+######################## CellTrace for MMEs %%%%%%%%%%%%%%%%%%%%%%
+
+MME_EBS_FILE_LIST="1_ebs 8_ebs"
+MME_UETRACE_LIST="mme_uetrace:FIV1:1"
+MME_CTUM_LIST="mme_ctum:1"
+
+
+
+##### PM #####
+PMDIR="/net/atns120dm2cge0/PM_Data/deployment/vapp/O16B"
+#PMDIR="/net/atns120dm2cge0/PM_Data/deployment/atrcxb1284/13.0"
+#PMDIR="/net/atns120dm2cge0/PM_Data/deployment/atrcxb1584/14.1.8/"
+
+
+# DO NOT EDIT THIS FILE - edit the master and reinstall.
+# (/tmp/crontab.XXXX7u9Gzr installed on Tue Mar  1 16:07:31 2016)
+# (Cron version V5.0 -- $Id: crontab.c,v 1.12 2004/01/23 18:56:42 vixie Exp $)
+0,15,30,45 * * * * /netsim_users/pms/bin/getStartedNodes 
+* * * * * /netsim_users/pms/bin/genStats -r 1 >> /netsim_users/pms/logs/genStats_1min.log 2>&1 
+0 * * * * /netsim_users/pms/bin/rmPmFiles -x 1 -b 1 >> /netsim_users/pms/logs/rmFiles.log 2>&1 
+* * * * * /netsim_users/pms/bin/lte_rec.sh -r 1 >> /netsim_users/pms/logs/lte_rec_1min.log 2>&1

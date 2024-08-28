@@ -1,0 +1,293 @@
+**********Hardware Check List**********
+  Memory Size: 64 GB
+Free Memory is            :20.3782
+No.of CPU          :6
+Valid Kernel patch
+Valid Kernal patch
+Kernal Patch              :[noop] deadline cfq             :512
+BWD is fine
+Uptime in Days        =2
+**********NETSim Check List**********
+Netsim Current Version            :ieatnetsimv5056-19: * NETSim UMTS R29G 
+**********Patch List**********
+
+Installed Patches are             :>> .show patch info
+Number   Description
+P06030_UMTS_R29G   NSS-10391 network map is incorrectly generated in MSC/BSC nodes - NSS PSV 17.5::5.0.6
+P06023_UMTS_R29G   NSS-10370 MTG_Netsim shell is down on two instances ieatnetsimv6012-20 and ieatnetsimv6012-15
+P06001_UMTS_R29G   NSS-9522: Reduce SSH connection time
+P05988_UMTS_R29G   NSS-9874: ENM- vRC Node should create the TrustCategory MO and update references of NetconfTls MO as part of enrollment
+P05885_UMTS_R29G   NSS-7646: Incorrect yang response from netopeer - Extended patch for new 17A-GA models
+P05834_UMTS_R29G   NSS-7646: Incorrect yang response from netopeer - Extended patch for incorrect yang response with models included
+Started_NES               :>> .show numstartednes
+593
+**********Simulations Check List**********
+Available Simulations             :
+CORE-3K-ST-MGw-C1141-14Bx2
+CORE-3K-ST-MGw-C1193-15Bx2
+CORE-3K-ST-MGw-C1203-16Ax2
+CORE-3K-ST-MGw-C1214-16Ax2
+CORE-C608-T17A-V1x1
+CORE-FT-CCN-5.11.0x1
+CORE-FT-CSCF-TSP-7-2x1
+CORE-FT-ESAPC-16B-V5x2
+CORE-FT-HSS-FE-TSP-16A-FD1x1
+CORE-FT-MTAS-TSP-4-4x1
+CORE-FT-SAPC-TSP-16B-FD1x1
+CORE-FT-VPN-TSP-3.2x1
+CORE-FT-vWMG-16B-V2x1
+CORE-FT-WMG-16B-V2x1
+CORE-MGW-15B-16A-UPGIND-V1
+CORE-SGSN-42A-UPGIND-V1
+CORE-SIU02-17A-V2x2
+CORE-ST-4.5K-SGSN-16A-CP01-V1x4
+CORE-ST-4.5K-SGSN-16A-CP02-V3x4
+CORE-ST-4.5K-SGSN-16A-CP03-V1x4
+CORE-ST-4.5K-SGSN-16A-CP09-V1x4
+CORE-ST-BSP-R9-V4x2
+CORE-ST-CISCO-ASR9000x2
+CORE-ST-CISCO-ASR900x2
+CORE-ST-CSCF-16B-V2x1
+CORE-ST-DSC-17A-V3x2
+CORE-ST-ECM-R16x2
+CORE-ST-EPG-SSR-16A-V4x2
+CORE-ST-EPG-SSR-16B-V3x2
+CORE-ST-FrontHaul-6080x2
+CORE-ST-HSS-FE-16A-V5x2
+CORE-ST-IPWORKS-17A-V2x1
+CORE-ST-JUNIPER-MX01x2
+CORE-ST-MLPT-2-4x1
+CORE-ST-MLTN-5.4x2-13
+CORE-ST-MTAS-16B-V2x1
+CORE-ST-SBG-16B-V2x1
+CORE-ST-SpitFire-17A-V7x2
+CORE-ST-UPG-15A-V2x2
+CORE-ST-vBGF-16A-V3x2
+CORE-ST-vEME-16A-V2x2
+CORE-ST-vEPG-EVR-16B-V3x2
+CORE-ST-vMRF-17A-V3x2
+CORE-ST-vWCG-15B-V7x2
+CORE-TCU02-17A-V2x2
+GSM-ST-BSC-16B-APG43L-x2
+GSM-TCU04-T16B-V6x2
+GSM-TCU04-T17A-V7x1
+GSM-TCU04-T17B-V4x1
+LTE16A-V18x40-5K-DG2-FDD-LTE07
+LTE16A-V4x15-5K-PICO-FDD-LTE09
+LTE16B-V13x40-5K-DG2-FDD-LTE06
+LTE17A-V10x40-5K-DG2-FDD-LTE01
+LTE17A-V2x2-UPGIND-DG2-LTE98
+LTE17B-V12x40-5K-DG2-FDD-LTE04
+LTE-FT-RNNODE-17B-V2x2
+LTE-FT-VPP-17B-V3x2
+LTE-FT-VRC-17B-V3x2
+LTEG1101-limx3-5K-FDD-LTE102
+LTEG1123-limx3-5K-FDD-LTE100
+LTEG1132-limx3-5K-FDD-LTE101
+LTEG1220-V1limx3-5K-FDD-LTE103
+LTEH1160-V2limx40-5K-FDD-LTE02
+LTEH1160-V2limx40-5K-FDD-LTE03
+LTEH1160-V2limx40-5K-FDD-LTE08
+LTEH1240-limx40-5K-FDD-LTE05
+LTEZ7301-G-UPGIND-V1-LTE97
+LTEZ8334-G-UPGIND-V1-LTE96
+LTEZ9334-G-UPGIND-V1-LTE95
+ML6352-R2-7x2-CORE42
+ML6691-17Ax2-CORE22
+ML6691x2-CORE18
+MLCN510R2-2.4FPx2-CORE20
+MLLH1.6FPx2-CORE21
+MLLH2.0-17Ax2-CORE24
+MLTN5-3FP2x2-CORE43
+MLTN5.4FPx2-CORE19
+MLTN6.0-17Ax4-CORE23
+PRBS-99Z-16APICONODE-UPGIND-MSRBSV1-LTE99
+RBSU4211-UPGIND-V1-RBS102
+RBSU4341-UPGIND-V1-RBS101
+RNC-15B-16B-UPGIND-V1
+RNCV6894x1-FT-RBSU4110x1-RNC99
+RNCV6940x1-FT-RBSU4210x33-RNC02
+RNCV71202x1-FT-MSRBS-16Bx1-RNC16
+RNCV71659x1-FT-MSRBS-16Bx56-RNC03
+RNCV71659x1-FT-RBSU4340x23-RNC01
+Total number of Simulations are           :     87      87
+PM data status                :6
+PM Scanners                :3
+Load Balancing            :>> .show serverloadconfig
+
+ Server Configuration      ( 0 - Indicates no configuration)
+=========================================
+ Node level load configuration 		:4	[ MSRBS-V2 17A-V10 ]	
+ Node level load configuration 		:10	[ ERBS H1160-V2lim ]	
+ Node level load configuration 		:4	[ MSRBS-V2 17B-V12 ]	
+ Node level load configuration 		:10	[ ERBS H1240-lim ]	
+ Node level load configuration 		:4	[ MSRBS-V2 16B-V13 ]	
+ Node level load configuration 		:4	[ MSRBS-V2 16A-V18 ]	
+ Node level load configuration 		:12	[ PRBS 16A-LTE-ECIM-MSRBS-V4 ]	
+ Node level load configuration 		:10	[ ERBS G1123-lim ]	
+ Node level load configuration 		:10	[ ERBS G1132-lim ]	
+ Node level load configuration 		:10	[ ERBS G1101-lim ]	
+ Node level load configuration 		:10	[ ERBS G1220-V1lim ]	
+ Node level load configuration 		:10	[ ERBS Z9334-UPGINDV1 ]	
+ Node level load configuration 		:10	[ ERBS Z8334-UPGINDV1 ]	
+ Node level load configuration 		:10	[ ERBS Z7301-UPGINDV1 ]	
+ Node level load configuration 		:4	[ MSRBS-V2 71A-UPGIND-V1 ]	
+ Node level load configuration 		:12	[ PRBS 61A-UPGIND-LTE-ECIM-MSRBS-V1 ]	
+ Node level load configuration 		:12	[ RBS U4340-lim ]	
+ Node level load configuration 		:4	[ RNC V71659-lim ]	
+ Node level load configuration 		:4	[ RNC V6940-lim ]	
+ Node level load configuration 		:12	[ RBS U4210-lim ]	
+ Node level load configuration 		:4	[ MSRBS-V2 16B-V11 ]	
+ Node level load configuration 		:4	[ RNC V71202-lim ]	
+ Node level load configuration 		:12	[ RBS U4110-lim ]	
+ Node level load configuration 		:4	[ RNC V6894-lim ]	
+ Node level load configuration 		:4	[ RNC V53303-tst ]	
+ Node level load configuration 		:12	[ RBS U4341-lim ]	
+ Node level load configuration 		:12	[ RBS U4211-lim ]	
+ Node level load configuration 		:10	[ M-MGw C1214-V1lim ]	
+ Node level load configuration 		:10	[ M-MGw C1203-V1lim ]	
+ Node level load configuration 		:10	[ M-MGw C1193-lim ]	
+ Node level load configuration 		:10	[ M-MGw C1141-V2lim ]	
+ Node level load configuration 		:4	[ SGSN 16A-CP03-WPP-V1 ]	
+ Node level load configuration 		:4	[ SGSN 16A-CP02-WPP-V3 ]	
+ Node level load configuration 		:4	[ SGSN 16A-CP01-WPP-V1 ]	
+ Node level load configuration 		:4	[ SGSN 16A-CP09-WPP-V1 ]	
+ Node level load configuration 		:4	[ SGSN 42A-UPGIND-V1 ]	
+ Node level load configuration 		:10	[ M-MGw C1215-V1lim ]	
+**********Genstats Information**********
+
+####Netsim config file and Crontab related Information####
+
+#!/bin/sh
+
+NSS_RELEASE=17.5
+ENV=VM
+
+#### NETSIM SERVERS #####
+SERVERS="ieatnetsimv5056-19"
+
+############ SIMULATION LISTS #############
+# LTE, SAPC, SPITFIRE, MGW, TCU, RNC LIST
+ieatnetsimv5056_19_list="CORE-ST-IPWORKS-17A-V2x1 CORE-3K-ST-MGw-C1214-16Ax2 CORE-ST-EPG-SSR-16A-V4x2 CORE-ST-EPG-SSR-16B-V3x2 RNC99 CORE-FT-vWMG-16B-V2x1 CORE-FT-ESAPC-16B-V5x2 LTE02 RNC16 CORE-C608-T17A-V1x1 LTE-FT-VRC-17B-V3x2 GSM-TCU04-T16B-V6x2 CORE-ST-DSC-17A-V3x2 CORE-3K-ST-MGw-C1193-15Bx2 CORE-FT-WMG-16B-V2x1 CORE-ST-SBG-16B-V2x1 LTE06 LTE-FT-VPP-17B-V3x2 CORE-3K-ST-MGw-C1141-14Bx2 GSM-TCU04-T17B-V4x1 CORE-ST-UPG-15A-V2x2 CORE-ST-vMRF-17A-V3x2 CORE-ST-vEPG-EVR-16B-V3x2 LTE08 CORE-ST-CSCF-16B-V2x1 CORE-ST-HSS-FE-16A-V5x2 CORE-3K-ST-MGw-C1203-16Ax2 LTE01 LTE09 LTE03 LTE04 LTE05 CORE-ST-MTAS-16B-V2x1 LTE07 LTE-FT-RNNODE-17B-V2x2 CORE-ST-vWCG-15B-V7x2 RNC02 RNC03 GSM-TCU04-T17A-V7x1 RNC01 CORE-ST-SpitFire-17A-V7x2 CORE-ST-vBGF-16A-V3x2 LTE100 LTE101 LTE102 LTE103"
+# SGSN MME LIST
+ieatnetsimv5056_19_mme_list="CORE-ST-4.5K-SGSN-16A-CP02-V3x4 CORE-ST-4.5K-SGSN-16A-CP09-V1x4 CORE-ST-4.5K-SGSN-16A-CP03-V1x4 CORE-ST-4.5K-SGSN-16A-CP01-V1x4"
+
+HOST=`hostname`
+HOST_NAME=`echo $HOST | sed s/-/_/g`
+LIST=`eval echo '$'${HOST_NAME}_list`
+# WARNING! COMMENT OUT THIS LINE IF SGSN MME LIST IS EMPTY
+MME_SIM_LIST=`eval echo '$'${HOST_NAME}_mme_list`
+
+######### PREDEFINED SCANNERS ############
+PREDEFINED_STATS_SCANNER_STATE=SUSPENDED
+
+############ SGSN MME TIMEZONE ############
+SGSN_TZ="GB-Eire"
+
+
+############ ROP INTERVAL ###############
+STATS_WORKLOAD_LIST="1:ALL 15:ALL"
+RECORDING_WORKLOAD_LIST="1:ALL 15:ALL"
+
+
+#### LIMITBANDWIDTH #####
+SET_BANDWIDTH_LIMITING=OFF
+BANDWIDTH_ERBS=3072
+BANDWIDTH_MSRBS_V2=3072
+BANDWIDTH_MGW=3072
+BANDWIDTH_SPITFIRE=1024
+NETWORK_DELAY=30
+
+########## rmPmFiles retention values ########
+XML_RETENTION=1
+BIN_RETENTION=1
+
+########## CELL CONFIGURATION LIST  ##########
+ERBS_CELLS_CONFIG_LIST="1 3 6 12"
+
+############ Celltrace and UETRACE file generation ############
+#FORMAT = <trace filename>:<Sim ID>:<start index>:<Number of nodes>:<UETRACE reference number start index>:<Total number of files>
+MSRBS_V2_LTE_UETRACE_LIST="${MSRBS_V2_LTE_UETRACE_LIST} 154kb_ue_trace.gz:LTE01:1:4:1:64"
+LTE_UETRACE_LIST="${LTE_UETRACE_LIST} 154kb_ue_trace.gz:LTE02:1:40:65:64"
+MSRBS_V2_LTE_UETRACE_LIST="${MSRBS_V2_LTE_UETRACE_LIST} 154kb_ue_trace.gz:LTE03:1:40:129:128"
+MSRBS_V2_LTE_UETRACE_LIST="${MSRBS_V2_LTE_UETRACE_LIST} 154kb_ue_trace.gz:LTE04:1:40:257:256"
+LTE_UETRACE_LIST="${LTE_UETRACE_LIST} 154kb_ue_trace.gz:LTE05:1:16:513:16"
+
+
+LTE_CELLTRACE_LIST="celltrace_256k.bin.gz:1:1 celltrace_4.7M.bin.gz:1:3"
+MSRBS_V1_LTE_CELLTRACE_LIST="celltrace_256k.bin.gz:JG1:1 celltrace_256k.bin.gz:JG2:1 celltrace_4.7M.bin.gz:JG3:1 celltrace_256k.bin.gz:JG1:2 celltrace_256k.bin.gz:JG2:2 celltrace_4.7M.bin.gz:JG3:2"
+MSRBS_V2_LTE_CELLTRACE_LIST="celltrace_256k.bin.gz:1:1 celltrace_4.7M.bin.gz:1:3"
+
+
+################### PM FILE LOCATIONS ###################
+                    
+SPITFIRE_PM_FileLocation=/md/
+                    
+MRFV_PM_FileLocation=/var/filem/nbi_root/PerformanceManagementReportFiles/
+                    
+EPG_EVR_PM_FileLocation=/fs/var/log/services/epg/pm/
+                    
+                    
+                    
+                    
+                    
+MSRBS_V1_PM_FileLocation=/opt/com/comea/internalFiles/PerformanceManagementReportFiles/
+MSRBS_V1_PMEvent_FileLocation=/var/log/persistent/oss/cell_trace/                    
+                    
+MRSV_PM_FileLocation=/var/filem/nbi_root/PerformanceManagementReportFiles/
+                    
+PRBS_PM_FileLocation=/opt/com/comea/internalFiles/PerformanceManagementReportFiles/
+PRBS_PMEvent_FileLocation=/var/log/persistent/oss/cell_trace/                    
+                    
+UPG_PM_FileLocation=/storage/no-backup/nbi_root/PerformanceManagementReportFiles/
+                    
+                    
+                    
+                    
+WCG_PM_FileLocation=/var/filem/nbi_root/PerformanceManagementReportFiles/
+                    
+                    
+WMG_PM_FileLocation=/md/wmg/pm/
+                    
+DSC_PM_FileLocation=/var/filem/nbi_root/PerformanceManagementReportFiles/
+                    
+MTAS_PM_FileLocation=/PerformanceManagementReportFiles/
+                    
+EPG_SSR_PM_FileLocation=/fs/var/log/services/epg/pm/
+                    
+CSCF_PM_FileLocation=/PerformanceManagementReportFiles/
+                    
+                    
+                    
+                    
+SBG_PM_FileLocation=/PerformanceManagementReportFiles/
+
+
+################## LTE MCC MNC UE TRACE #################
+MCC_MNC="272F010"
+
+
+######################## CellTrace for MMEs ########################
+MME_EBS_FILE_LIST="1_ebs 2_ebs 3_ebs 4_ebs"
+MME_UETRACE_LIST="mme_uetrace:FIV1:1"
+MME_CTUM_LIST="mme_ctum:1"
+
+
+
+###################### PM DIRECTORY #####################
+PMDIR="/netsim/genstats"
+
+########### SGSN-MME FILE COMPRESSION REQUIRED ############
+MME_FILE_COMP_NEEDED=YES# DO NOT EDIT THIS FILE - edit the master and reinstall.
+# (/tmp/rec_new_crontab installed on Wed Feb 22 10:30:47 2017)
+# (Cron version V5.0 -- $Id: crontab.c,v 1.12 2004/01/23 18:56:42 vixie Exp $)
+0,15,30,45 * * * * /netsim_users/pms/bin/getStartedNodes 
+* * * * * /netsim_users/pms/bin/genStats -r 1 >> /netsim_users/pms/logs/genStats_1min.log 2>&1 
+0,15,30,45 * * * * /netsim_users/pms/bin/genStats -r 15 >> /netsim_users/pms/logs/genStats_15min.log 2>&1 
+0 * * * * /netsim_users/pms/bin/rmPmFiles >> /netsim_users/pms/logs/rmFiles.log 2>&1 
+0-9,16-23 * * * * /netsim_users/pms/bin/wran_rec.sh -l DEFAULT -r 1 >> /netsim_users/pms/logs/wran_rec.log 2>&1
+10-15 * * * * /netsim_users/pms/bin/wran_rec.sh -l PEAK -r 1 >> /netsim_users/pms/logs/wran_rec.log 2>&1
+0,15,30,45 0-9,16-23 * * * /netsim_users/pms/bin/wran_rec.sh -l DEFAULT -r 15 >> /netsim_users/pms/logs/wran_rec.log 2>&1
+0,15,30,45 10-15 * * * /netsim_users/pms/bin/wran_rec.sh -l PEAK -r 15 >> /netsim_users/pms/logs/wran_rec.log 2>&1
+* * * * * /netsim_users/pms/bin/lte_rec.sh -r 1 >> /netsim_users/pms/logs/lte_rec_1min.log 2>&1
+0,15,30,45 * * * * /netsim_users/pms/bin/lte_rec.sh -r 15 >> /netsim_users/pms/logs/lte_rec_15min.log 2>&1

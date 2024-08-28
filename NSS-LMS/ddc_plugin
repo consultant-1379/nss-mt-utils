@@ -1,0 +1,44 @@
+#!/bin/bash
+
+TASK=$1
+OUTPUT_DIR=$2
+
+doStart() {
+    if [ ! -d ${OUTPUT_DIR}/netsim ] ; then
+        ${_MKDIR} ${OUTPUT_DIR}/netsim
+    fi
+
+    su netsim -c "echo '.show started' | /netsim/inst/netsim_pipe" > ${OUTPUT_DIR}/netsim/show_started.txt
+    su netsim -c "echo '.show installation' | /netsim/inst/netsim_pipe" > ${OUTPUT_DIR}/netsim/show_installation.txt
+}
+
+doStopAndMakeTar() {
+    echo "doStopAndMakeTar"
+    if [ -d /netsim/inst/netsimprmn ] ; then
+        if [ ! -d ${OUTPUT_DIR}/netsim/netsimprmn ] ; then
+            ${_MKDIR} ${OUTPUT_DIR}/netsim/netsimprmn
+        fi
+        ${_FIND} /netsim/inst/netsimprmn -type f -daystart -ctime -1 -name 'NetsimRequestsCntr*' \
+                 -exec ${_CP} -f {} ${OUTPUT_DIR}/netsim/netsimprmn \;
+    fi
+}
+
+doTrigger() {
+    NUM_STARTED=$(su netsim -c "echo '.show numstartednes' | /netsim/inst/netsim_pipe" | tail -1)
+    echo "${TIMESTAMP} ${NUM_STARTED}" >> ${OUTPUT_DIR}/netsim/show_numstartednes.txt
+}
+
+case "${TASK}" in
+    START)
+        doStart
+        ;;
+    STOP)
+        doStopAndMakeTar
+        ;;
+    TRIGGER)
+        doTrigger
+        ;;
+    MAKETAR)
+        doStopAndMakeTar
+        ;;
+esac

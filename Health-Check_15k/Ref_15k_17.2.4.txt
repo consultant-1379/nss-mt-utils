@@ -1,0 +1,283 @@
+**********Hardware Check List**********
+  Memory Size: 64 GB
+Free Memory is            :33.498
+No.of CPU          :6
+Valid Kernel patch
+Valid Kernal patch
+Kernal Patch              :[noop] deadline cfq             :512
+BWD is fine
+Uptime in Days        =19:32
+**********NETSim Check List**********
+Netsim Current Version            :ieatnetsimv5056-04: * NETSim UMTS R29D 
+**********Patch List**********
+
+Installed Patches are             :>> .show patch info
+Number   Description
+P05836_UMTS_R29D   NSS-7919ENM - Heart bear failure alarms on ERBS nodes
+P05834_UMTS_R29D   NSS-7646: Incorrect yang response from netopeer - Extended patch for incorrect yang response with models included
+P05826_UMTS_R29D   NSS-8456:Release Upgrade Independence: Create New pERBS (MSRBS-V1) Simulation
+P05821_UMTS_R29D   NSS-8367:Release Upgrade Independence: Create New Radionode Simulation
+P05820_UMTS_R29D   NSS-8477:Add support for RAN VNFM node
+P05818_UMTS_R29D   Automation of adding yang models and execution of .setfilelocation command
+P05807_UMTS_R29D   NSS-8002 Add support for default backup to ENM for CPP ERBS nodes
+P05803_UMTS_R29D   NSS-7923:Support for Upgrade Independence on vAPP for NetSim RNN Node
+P05800_UMTS_R29D   NSS-7803,NSS-7922:Support for Upgrade Independence on vAPP for NetSim vRC , vPP Node
+P05799_UMTS_R29D   NSS-8005 Support for vRC node with NSS 17.01 MIM
+P05798_UMTS_R29D   NSS-6813 : Extended Yang static solution support from NETSim side as a patch
+P05797_UMTS_R29D   NSS-8317 LogService MO on ERBS: Align transfertInformation attibute responce message to RealNode one
+P05796_UMTS_R29D   NSS-7646 : Incorrect yang response from netopeer
+P05795_UMTS_R29D   NSS-7939: Trap command support with "varbindings TIMETICKS" parameter for CISCO and JUNIPER nodes
+P05792_UMTS_R29D   NSS-8161: Traps command support with parameters to extend for JUNIPER nodes
+P05790_UMTS_R29D   NSS-7876 Memory leak fixes for wpp_shell
+P05785_UMTS_R29D   NSS-8056 ML-CN 510 2.4 FP node creation with new walk file
+P05783_UMTS_R29D   NSS-6885:ENM - Netsim 5G RnNode, vRC and vPP nodes to use correct port for PM - sftp protocol
+P05781_UMTS_R29D   NSS-7941: Trap command support with "varbindings OBJECT IDENTIFIER" parameter for CISCO and JUNIPER nodes
+P05778_UMTS_R29D   NSS-7843 NETSim: /c/pm_data support for SBG node required
+P05777_UMTS_R29D   NSS-7095: Updated patch for configure cli command
+P05774_UMTS_R29D   NSS-7995	Command support "status:prefix;" and also updating the display message to restart netsim
+P05770_UMTS_R29D   NSS-7782 FrontHaul6080 - Error trying to set a snmpTargetAddrEntry instance with IPv6 parameters
+P05766_UMTS_R29D   NSS-7402ENM-ECIM nodes alarms shall be correctly filled
+P05761_UMTS_R29D   NSS-7763 C608 Node Template 17A using BasebandT inputs
+P05757_UMTS_R29D   NSS-7543: Update ML-LH-1-6-FP simulation with new snmp walk
+P05753_UMTS_R29D   NSS-7805: ENM- Update the Ipsec behavior for BaseBand Nodes similar to real node
+P05752_UMTS_R29D   NSS-7795 when creating ExternalUtranCellFDDs, on real node, I got error that a combinations of attribuutes were not unique among the Cells.
+P05751_UMTS_R29D   NSS-7852:ENM-Getting OUT_OF_SYNC alarm
+P05748_UMTS_R29D   NSS-7534: ENM - NETSim Handler updates in TAF - NETSim support to create json file with node details
+P05746_UMTS_R29D   NSS-7857:ENM-Excessive number of SNMP traps being generated
+P05743_UMTS_R29D   NSS-7577:Netlog support improvment for SGSN-MME node to align with real node behavior
+P05740_UMTS_R29D   NSS-7488:sendevent command for ECM 16.0
+P05739_UMTS_R29D   NSS-7573: Trap command support with "index" parameter for CISCO and JUNIPER nodes.
+P05736_UMTS_R29D   NSS-7745: ENM - actionName is missing in modified attributes for SGSN and Radio Node Upgrade Job due to struct handling changes in upgrade usecase
+P05735_UMTS_R29D   NSS-7058 SGSN-MME CP08 sgsnmme_oam_CXS101289_R63A85_160923132834.tar support in NSS 16.16
+P05734_UMTS_R29D   NSS-7592 Update missingUpgradePackages MO attribute when SHM verify activity is executed
+P05733_UMTS_R29D   ENM:NSS-7625 queryAlarms support for ECM 16.0 nodes - additional filter support
+P05732_UMTS_R29D   NSS-7363: Cisco ASR9xx / ASR9K - Additional MIBs Support
+P05731_UMTS_R29D   NSS-7704: ENM - Patch to rollback the support for default value of structs
+P05729_UMTS_R29D   NSS-7673:SAPC node need installKeyFile support to install license key files(ENM)
+P05727_UMTS_R29D   NSS-7759: Sync., is not working for eECM node
+P05726_UMTS_R29D   ENM:NSS-7349 When I create an EUtranCellFDD and run a subsequent update on the same MO, I get an error from Node relating to a different attribute to the one I'm creating.
+P05722_UMTS_R29D   NSS-5137 SGSN-MME CP07 sgsnmme_oam_CXS101289_R62B11_160916140653.tar support in NSS 16.16
+P05721_UMTS_R29D   NSS-7500 ENM:Simulation support for new SGSN-MME 1.3 R64
+P05720_UMTS_R29D   NSS-7334 Netsim not starting, failing our healtcheck and our restart also fails
+P05718_UMTS_R29D   NSS-7590 Improvement - Support for Delayed response WARNING when executing netsim command
+P05711_UMTS_R29D   NSS-6068: ENM- Revocation check support for COM/ECIM nodes
+P05709_UMTS_R29D   NSS-7407:Netlog support for PRBS node to align with real node behaviour
+P05708_UMTS_R29D   NSS-6933::NETSIM crash handling
+P05706_UMTS_R29D   NSS-7489:ceasealarm command for ECM 16.0
+P05705_UMTS_R29D   NSS-7455:ENM: Customization support for all the fields in send alarm command for ECM 16.0
+P05702_UMTS_R29D   NS-6199 Getting EMPTY node response from nodes[CDB Breaker]
+P05701_UMTS_R29D   NSS-7083:Add queryAlarms/clear alarms/get aalrmcount support for ECM 16.0 nodes with HTTPS Phase2 
+P05695_UMTS_R29D   NSS-6805(OSS RC Network Evolution for DG2 L17B RadioNode )
+P05694_UMTS_R29D   NSS-6792ENM:How to set SNMPv3 EngineId
+P05688_UMTS_R29D   NSS-5354:ENM - NETSim - SHM Support for MINI-LINK ENM 17A - Phase 1(Dependent patch for P05532)
+P05684_UMTS_R29D   NSS-6046:ENM: Design ECM 16.0 node with attached mibs with alarm support through HTTP
+P05682_UMTS_R29D   NSS-7336: ENM-Error no vendor credentials
+P05681_UMTS_R29D   NSS-6924 Align NETSim node behaviour with real node for the predefined PmJob retreiving
+P05680_UMTS_R29D   NSS-7267SGSN-MME HB Failure
+P05679_UMTS_R29D   NSS-6890:Modification of Network Logs' names
+P05675_UMTS_R29D   NSS-6907RFA250 - Europa test suite is getting failed because cease events are coming late to ENM
+P05670_UMTS_R29D   NSS 7239 NETSim pmdata:disable command support for SAPC nodes(ENM)
+P05669_UMTS_R29D   NSS-7095: Static SNMP response commands for DSM - Cisco (ASR9000 & ASR900) Juniper
+P05667_UMTS_R29D   NSS-6855 Create kertayle support without namespaces
+P05662_UMTS_R29D   NSS-7084:NSS: Apply for netsim for vEPG 16A
+P05660_UMTS_R29D   NSS-7191:Incorrect SSH port for EPG/vEPG and vSAPC for Node to sync, is port 22 and should be 830.
+P05658_UMTS_R29D   NSS-7044 NETSIM Bad CA DistinguishedName Error(ENM)
+P05657_UMTS_R29D   NSS-7012: SAPC nodes don't have heartbeat capabilities
+P05652_UMTS_R29D   NSS-6972 VOSS 17A:NMA notifications are getting toggled with errors in exception logs
+P05651_UMTS_R29D   NSS-7079 ENM - Support for export action with schemaID update - Spitfire nodes
+P05650_UMTS_R29D   NSS-6784SNMPv2 trap is not automatically sent to the Target Ip Address
+P05649_UMTS_R29D   NSS-5755 ENM - Cisco ASR9000 support for DSM 17.0 - NETSim
+P05647_UMTS_R29D   NSS-6984 Deprecated attribute should be present in Notifications
+P05644_UMTS_R29D   Adding telnet protocol for ML-LH -2-0
+P05643_UMTS_R29D   NSS-7019 Unable to upload the default backup to ENM for ECIM node(SGSN)
+P05641_UMTS_R29D   NSS-5635:ENM - Juniper MX series support for DSM 17.0 - NETSim
+P05640_UMTS_R29D   NSS-5631: ENM - Cisco ASR900 support for DSM 17.0 - NETSim
+P05639_UMTS_R29D   NSS-6336 ENM - NETSim - SHM Support for MINI-LINK ENM 17A - Phase 3
+P05636_UMTS_R29D   TORF-147751Node Agnostic job is failing on vApp atvts3398 with LTE01(LTE17A-V10x160-15K-DG2-FDD-LTE01) node unsync issue
+P05628_UMTS_R29D   NSS-6873 Export backup is failing on MSRBS-V203 Node
+P05625_UMTS_R29D   NS-6108Issue in Activating Predef Job on RadioNode
+P05619_UMTS_R29D   NSS-6336 ENM - NETSim - SHM Support for MINI-LINK ENM 17A - Phase 3
+P05614_UMTS_R29D   NSS-6383 Confirm restore action is failing on ESAPC 17A node
+P05613_UMTS_R29D   NSS-6385 Update EPG and vEPG sims to include distinguishing managed function - Vinfra
+P05612_UMTS_R29D   NSS-6297 Deactivate Fail Safe Job is failing in License install For some nodes (RNC, BSC)
+P05597_UMTS_R29D   NSS-6150 Execute different use-cases for the updated erlang VM with the tunned parameters
+P05588_UMTS_R29D   NSS-6180 Fix for handling Default simulation corrupted case
+P05587_UMTS_R29D   NSS-5306 (Network Evolution Support for vSAPC 17A in O17A)
+P05585_UMTS_R29D   NSS-5777:void response to Change Frequency MO Action for Pico nodes
+P05583_UMTS_R29D   NSS-6283: EPG and VEPG nodes dont have heartbeat capabilities
+P05581_UMTS_R29D   NSS-5963configure sys name same as node name for MINI-LINK-Indoor node
+P05577_UMTS_R29D   NSS-5692 NetSim using SHA1 algorithm for Signing GetCertInitial Message of SCEP Enrollment for ERBS nodes
+P05576_UMTS_R29D   NSS-6228: Activity generator required for Front haul
+P05573_UMTS_R29D   NSS-5697: HeartBeat support for 5G RNN,vApp and vRC nodes
+P05571_UMTS_R29D   NSS-6135:Design SGSN-MME 16A CP06 nodes latest MIM file
+P05570_UMTS_R29D   NSS-5179 COM/CLI Support for vSAPC nodes
+P05569_UMTS_R29D   NSS-6045 Unable to delete the default backup for ECIM nodes(SGSN/ Radio Nodes)
+P05566_UMTS_R29D   NS-6029Crash reports seen in logs associated with RadioNodes
+P05564_UMTS_R29D   ENM: Design ECM 16.0 node with attached mibs with alarm support through HTTP
+P05562_UMTS_R29D   NSS-5957netsim is sending same alarm sequence number for two different alarms on snmp nodes
+P05558_UMTS_R29D   NSS-5944 Netsim needs to align with the CPP real node behaviour
+P05554_UMTS_R29D   NSS-6044: Empty issuer during certificate enrollment with CMPv2_INITIAL for PICO RBS
+P05547_UMTS_R29D   NSS-5558-Improper Netsim node state resulting in activity failure during UPGRADE
+P05545_UMTS_R29D   NSS-5958 Issues with DG2 and SGSN simulations for Relase Upgrade Independence
+P05541_UMTS_R29D   NSS-5702 LCT connection can't be established for FronHaul simulated node
+P05538_UMTS_R29D   NSS-5652 Netconf: Multiplicity violation error DG2 nodes
+P05535_UMTS_R29D   NSS-5558-Improper Netsim node state resulting in activity failure during UPGRADE
+P05532_UMTS_R29D   NSS-5354:ENM - NETSim - SHM Support for MINI-LINK ENM 17A - Phase 1
+P05527_UMTS_R29D   NSS-5752 Increase default delay for ERBS rbcConfigLevel attribute change
+P05526_UMTS_R29D   NSS-5613-SGSN nodes not syncing on 16.10 server( 1.25.78) due to missing PM files on the netsim
+P05525_UMTS_R29D   NSS-5741 Unable to update attribute 'licensedCapacityLimit' under CapacityKey MO
+P05522_UMTS_R29D   NSS-5638OSSRC- While sending alarm after configuring eriAlarmNObjAdditionalText parameter for ericsson alarm and alarmActiveDescription for snfEvent showing format error for ECM R16 node
+P05519_UMTS_R29D   NSS-4878 Node behaviour for snapshot sampling for uplink spectrum analyzer
+P05513_UMTS_R29D   NSS-5423 Netsim should consider the port that is present in the sftp URL provided by the SHM.
+P05512_UMTS_R29D   NSS-5106:ENM - M17A : Indoor Nodes CLI - NETSim
+P05510_UMTS_R29D   NSS-5356: Add action capabilities for vSAPC nodes
+P05508_UMTS_R29D   NS-5975 loopback handling error
+P05506_UMTS_R29D   NSS-5215:ENM:Support for SFTP Port 2024 for Baseband T nodes
+P05505_UMTS_R29D   NSS-5419 IMS Node SImulations not set up for SHM
+P05501_UMTS_R29D   NSS-5575 RadioNode 16A stopped sending progress notification after "Activate FailSafe" action trigerred
+P05494_UMTS_R29D   NSS-5578 Endurance - Installation of P05326 leaves netsim in bad state 
+P05493_UMTS_R29D   NSS-5510:void response to Change Frequency MO Action for Pico nodes
+P05490_UMTS_R29D   NSS-5497 Node is not sending notifications to NMA, which suppose to update CS db.
+P05485_UMTS_R29D   Changing the ARNE XML contents for ECAS node
+P05483_UMTS_R29D   NS-5950 Netsim is not sending actionId for 100% finished notification for create backup action on sbg nodes
+P05479_UMTS_R29D   NSS-4304 OSSRC - Network Evolution support for SGSN MME 16A CP06
+P05478_UMTS_R29D   NSS-5295 EPG sims are not returning action capability
+P05473_UMTS_R29D   NSS-4795 Unable to change arfcnValueGeranDl value through cmedit action
+P05472_UMTS_R29D   NSS-5223:Unable to create AirIfLoadProfile MO
+P05469_UMTS_R29D   NSS-5126MGW Nodes in 16.10 simulation goes into Hearbeat
+P05468_UMTS_R29D   NSS-4729 ENM:HwItem MO ProductIdentity should be null in SpitFire 6672 nodes
+P05465_UMTS_R29D   NSS-3312ENM - M17A : MINI-LINK LH 2.0 - NETSim
+P05463_UMTS_R29D   NSS-5207 Malformed notification sent by NetSim RadioNode simulation on IPSEC certificate issue
+P05462_UMTS_R29D   NSS-5012 Request for 17A VRC simulation (5G node)
+P05459_UMTS_R29D   Error during scanner creation for 16.12 simulations
+P05454_UMTS_R29D   NSS-5181 Error in creating EUtran cell on pico nodes 
+P05452_UMTS_R29D   NSS-3308: ENM - M17A : MINI-LINK 6691 1.1 - NETSim
+P05451_UMTS_R29D   Remove the deprecated Struct members from the Response of the request to get the attributes
+P05449_UMTS_R29D   NSS-3310: ENN: MINI-LINK TN 6.0 node support
+P05446_UMTS_R29D   NSS-4259 (Introduction of Router 6274 for R29D)
+P05443_UMTS_R29D   NSS-4834: FM: Fronthaul6080 need sync support for linkDown alarm
+P05440_UMTS_R29D   NSS-4999 ENM:OTAC 5G-SP088 vRC ENM and RAN support for MOM split arch
+P05439_UMTS_R29D   NSS-5001 ENM:OTAC 5G-SP088 vPP ENM and RAN support for MOM split arch
+P05438_UMTS_R29D   LCT/CLI launch support for FrontHaul 6080
+P05430_UMTS_R29D   NS-5916 Confirm Restore failing on dg2 nodes
+P05427_UMTS_R29D   NSS-4263:ENM:OTAC 5G-SP088 ENM and RAN support for MOM split arch
+P05426_UMTS_R29D   NSS-4981 Arne validation failed for CORE CEE 16A-V1 node
+P05417_UMTS_R29D   NSS-4705 Getting RPCErrorException from node while activating the plan
+P05414_UMTS_R29D   NSS-4450: SOEM support for ML-LH 1.6-FP
+P05383_UMTS_R29D   NSS-4761: Issues observed with the EPG simulations provided(not recieving HB trap, not able to send alarm with user defined sequence id and FmAlarmType MOs are not included).
+P05376_UMTS_R29D   NS-5834::100% running status on the dg2 node(RNCTEST0101WDG2_1706)
+P05373_UMTS_R29D   NSS-4273 ENM:Support TORF-105436:NHC: ERBS Abnormal Restarts check execution
+P05310_UMTS_R29D   NSS-3060: ENM: Node support for ML-TN 5-4FP
+P04830_UMTS_R29D   NS-4697 Netsim crash running ENM import
+Started_NES               :>> .show numstartednes
+480
+**********Simulations Check List**********
+Available Simulations             :
+LTE16A-V18x160-15K-DG2-FDD-LTE12
+LTE16B-V13x160-15K-DG2-FDD-LTE10
+LTEH1220-limx160-15K-FDD-LTE11
+Total number of Simulations are           :      3       3
+PM data status                :0
+PM Scanners                :0
+Load Balancing            :>> .show serverloadconfig
+
+ Server Configuration      ( 0 - Indicates no configuration)
+=========================================
+ Node level load configuration 		:4	[ MSRBS-V2 16B-V13 ]	
+ Node level load configuration 		:10	[ ERBS H1220-lim ]	
+ Node level load configuration 		:4	[ MSRBS-V2 16A-V18 ]	
+sum of mocount     :2385243 
+**********Genstats Information**********
+
+####Netsim config file and Crontab related Information####
+
+#!/bin/sh
+
+NSS_RELEASE=17.2
+ENV=VM
+
+#### NETSIM SERVERS #####
+SERVERS="ieatnetsimv5056-04"
+
+############ SIMULATION LISTS #############
+# LTE, SAPC, SPITFIRE, MGW, TCU, RNC LIST
+ieatnetsimv5056_04_list="LTE12 LTE11 LTE10"
+# SGSN MME LIST
+ieatnetsimv5056_04_mme_list=""
+
+HOST=`hostname`
+HOST_NAME=`echo $HOST | sed s/-/_/g`
+LIST=`eval echo '$'${HOST_NAME}_list`
+# WARNING! COMMENT OUT THIS LINE IF SGSN MME LIST IS EMPTY
+MME_SIM_LIST=`eval echo '$'${HOST_NAME}_mme_list`
+
+######### PREDEFINED SCANNERS ############
+PREDEFINED_STATS_SCANNER_STATE=SUSPENDED
+
+############ SGSN MME TIMEZONE ############
+SGSN_TZ="GB-Eire"
+
+
+############ ROP INTERVAL ###############
+STATS_WORKLOAD_LIST="1:ALL 15:ALL"
+RECORDING_WORKLOAD_LIST="1:ALL 15:ALL"
+
+
+#### LIMITBANDWIDTH #####
+SET_BANDWIDTH_LIMITING=OFF
+BANDWIDTH_ERBS=3072
+BANDWIDTH_MSRBS_V2=3072
+BANDWIDTH_MGW=3072
+BANDWIDTH_SPITFIRE=1024
+NETWORK_DELAY=30
+
+########## rmPmFiles retention values ########
+XML_RETENTION=1
+BIN_RETENTION=1
+
+########## CELL CONFIGURATION LIST  ##########
+ERBS_CELLS_CONFIG_LIST="1 3 6 12"
+
+############ Celltrace and UETRACE file generation ############
+#FORMAT = <trace filename>:<Sim ID>:<start index>:<Number of nodes>:<UETRACE reference number start index>:<Total number of files>
+MSRBS_V2_LTE_UETRACE_LIST="${MSRBS_V2_LTE_UETRACE_LIST} 154kb_ue_trace.gz:LTE01:1:4:1:64"
+LTE_UETRACE_LIST="${LTE_UETRACE_LIST} 154kb_ue_trace.gz:LTE02:1:64:65:64"
+MSRBS_V2_LTE_UETRACE_LIST="${MSRBS_V2_LTE_UETRACE_LIST} 154kb_ue_trace.gz:LTE03:1:64:129:128"
+MSRBS_V2_LTE_UETRACE_LIST="${MSRBS_V2_LTE_UETRACE_LIST} 154kb_ue_trace.gz:LTE04:1:64:257:256"
+LTE_UETRACE_LIST="${LTE_UETRACE_LIST} 154kb_ue_trace.gz:LTE05:1:16:513:16"
+
+
+LTE_CELLTRACE_LIST="celltrace_256k.bin.gz:1:1 celltrace_4.7M.bin.gz:1:3"
+MSRBS_V1_LTE_CELLTRACE_LIST="celltrace_256k.bin.gz:JG1:1 celltrace_256k.bin.gz:JG2:1 celltrace_4.7M.bin.gz:JG3:1 celltrace_256k.bin.gz:JG1:2 celltrace_256k.bin.gz:JG2:2 celltrace_4.7M.bin.gz:JG3:2"
+MSRBS_V2_LTE_CELLTRACE_LIST="celltrace_256k.bin.gz:1:1 celltrace_4.7M.bin.gz:1:3"
+
+
+################### PM FILE LOCATIONS ###################
+                    
+                    
+
+
+################## LTE MCC MNC UE TRACE #################
+MCC_MNC="272F010"
+
+
+######################## CellTrace for MMEs ########################
+MME_EBS_FILE_LIST="1_ebs 2_ebs 3_ebs 4_ebs"
+MME_UETRACE_LIST="mme_uetrace:FIV1:1"
+MME_CTUM_LIST="mme_ctum:1"
+
+
+
+###################### PM DIRECTORY #####################
+PMDIR="/netsim/genstats"
+
+########### SGSN-MME FILE COMPRESSION REQUIRED ############
+MME_FILE_COMP_NEEDED=YES# DO NOT EDIT THIS FILE - edit the master and reinstall.
+# (/tmp/rec_new_crontab installed on Tue Dec 13 08:58:00 2016)
+# (Cron version V5.0 -- $Id: crontab.c,v 1.12 2004/01/23 18:56:42 vixie Exp $)
+0,15,30,45 * * * * /netsim_users/pms/bin/getStartedNodes 
+* * * * * /netsim_users/pms/bin/genStats -r 1 >> /netsim_users/pms/logs/genStats_1min.log 2>&1 
+0,15,30,45 * * * * /netsim_users/pms/bin/genStats -r 15 >> /netsim_users/pms/logs/genStats_15min.log 2>&1 
+0 * * * * /netsim_users/pms/bin/rmPmFiles >> /netsim_users/pms/logs/rmFiles.log 2>&1 
+* * * * * /netsim_users/pms/bin/lte_rec.sh -r 1 >> /netsim_users/pms/logs/lte_rec_1min.log 2>&1
+0,15,30,45 * * * * /netsim_users/pms/bin/lte_rec.sh -r 15 >> /netsim_users/pms/logs/lte_rec_15min.log 2>&1

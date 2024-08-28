@@ -1,0 +1,174 @@
+**********Hardware Check List**********
+  Memory Size: 64 GB
+Free Memory is            :47.3105
+No.of CPU          :6
+Kernal Patch mis match
+Kernal Patch mis match
+Kernal Patch              :noop deadline [cfq]             :512
+BWD is fine
+Uptime in Days        =6:20
+**********NETSim Check List**********
+Netsim Current Version            :ieatnetsimv5022-04: * NETSim UMTS R29C 
+**********Patch List**********
+
+Installed Patches are             :>> .show patch info
+Number   Description
+P05413_UMTS_R29C   NSS-4804Sendalarm with "last_seq" selection doesn't work anymore for SGSN sims
+P05354_UMTS_R29C   NSS-4511Sendalarm with "last_seq" selection doesn't work anymore
+P05338_UMTS_R29C   NSS-3783  UL Interference-Node should reply to NETCONF action with return type void with simple <OK> response
+P05337_UMTS_R29C   NSS-4158 ENM:EPG version MO action support
+P05335_UMTS_R29C   NSS-4089 ENM: Namespace support for Radionode (ComSnmp fragment)
+P05333_UMTS_R29C   NS-5786 setmoattribute is randomly not working correctly
+P05326_UMTS_R29C   ENM: Netsim support for CTUM File or/and Streaming commands through gsh-Phase2
+P05325_UMTS_R29C   NSS-3717"alarm_type" not supported by "alarmburst"
+P05323_UMTS_R29C   NSS-3787: ENM - ML 6691 Inventory Indoor nodes - NETSim
+P05322_UMTS_R29C   Unable to uncompress SGSN CP03 simulation
+P05321_UMTS_R29C   NSS-3739: ENM:Radionode simulation to send <heartbeat> tag instead of <heartBeat> tag during heartbeat notifications
+P05319_UMTS_R29C   NSS-3725 Restore Performance: Progress % is 0 for 3 nodes out of 50 Spitfire nodes
+P05318_UMTS_R29C   NSS-4018: Netsim Node Is Not Sending The IPAddress Change Notification To ENM During IPSEC De-activation
+P05316_UMTS_R29C   NSS-4167 ENM:Node support for EPG 16B node type
+P05314_UMTS_R29C   NSS-4034:ENM:Router 6672 'Time of Activation and Deactivation' Updates
+P05311_UMTS_R29C   NSS-3659:Few NEs not getting started after they are in Stopped state during Upgrade Spitfire nodes
+P05308_UMTS_R29C   NSS-3392ENM - alarmburst 'clear_after_burst=true' flag is not clearing after burst. Uncleared alarms left behind
+P05302_UMTS_R29C   NSS-3709 30 nodes unsync in SIT
+P05298_UMTS_R29C   NSS-3412::ENM: MainActivity and DetailedActivity State changes during cancelRestore on ERBS
+P05296_UMTS_R29C   NSS-3972: Missing signaling if NETSIM does not get certificate from SMRS
+P05292_UMTS_R29C   NSS-3701SNMP walk errors for MINI-LINK nodes
+P05289_UMTS_R29C   NSS-3958 Unable to access the CEE node
+P05288_UMTS_R29C   NS-5733(ENM - Change simulation of the authentication for MINI-LINK Outdoor nodes)
+P05286_UMTS_R29C   NSS-3930 LTE07dg2ERBS00150 on simulation LTE16B-V8x160-5K-DG2-FDD-LTE07 invalid netconf action operation
+P05285_UMTS_R29C   NSS-3761 ENM: Support for UL Interference measurement sample collection
+P05283_UMTS_R29C   NSS-3785: ENM basic CM support for FrontHaul 6080 node
+P05263_UMTS_R29C   NS-3669: Command(delete_ms_move_filter_profile) support for deleting the subscriber profile
+P05252_UMTS_R29C   NS-5537 Netsim not startable after server reboot 
+P05210_UMTS_R29C   Activation of Radio Node is failing on real node but it was not failing on Netsim
+Started_NES               :>> .show numstartednes
+514
+**********Simulations Check List**********
+Available Simulations             :
+CORE-3K-ST-MGw-C1141-14Bx20
+CORE-3K-ST-MGw-C1193-15Bx20
+CORE-3K-ST-MGw-C1203-16Ax20
+CORE-3K-ST-MGw-C1214-16Ax20
+CORE-ST-4.5K-SGSN-16A-CP02-V1x30
+CORE-ST-4.5K-SGSN-16A-CP03-V1x20
+CORE-ST-MLTN-5.4x5-13
+CORE-ST-SpitFire-16A-V11x7
+LTE16A-LTE-ECIM-MSRBS-V3x10-FT-PICO-FDD-LTE37
+LTE16A-V18x160-5K-DG2-FDD-LTE08
+LTE17A-V2x10-FT-DG2-FDD-LTE09
+LTEF1106x160-5K-FDD-LTE05
+LTEG1101-limx3-5K-FDD-LTE102
+LTEG1123-limx3-5K-FDD-LTE100
+LTEG1132-limx3-5K-FDD-LTE101
+LTEG1220-V1limx3-5K-FDD-LTE103
+LTEH120-limx10-FT-FDD-LTE11
+LTEH140-limx10-FT-FDD-LTE10
+Total number of Simulations are           :     18      18     535
+PM data status                :1
+PM Scanners                :0
+Load Balancing            :>> .show serverloadconfig
+
+ Server Configuration      ( 0 - Indicates no configuration)
+=========================================
+ Node level load configuration 		:12	[ ERBS F1106 ]	
+ Node level load configuration 		:4	[ MSRBS-V2 16A-V18 ]	
+ Node level load configuration 		:4	[ MSRBS-V2 17A-V2 ]	
+ Node level load configuration 		:12	[ ERBS H140-lim ]	
+ Node level load configuration 		:12	[ ERBS G1101-lim ]	
+ Node level load configuration 		:12	[ ERBS G1123-lim ]	
+ Node level load configuration 		:12	[ ERBS G1132-lim ]	
+ Node level load configuration 		:12	[ ERBS G1220-V1lim ]	
+ Node level load configuration 		:12	[ ERBS H120-lim ]	
+ Node level load configuration 		:4	[ SGSN 16A-CP03-WPP-V1 ]	
+ Node level load configuration 		:4	[ SGSN 16A-CP02-WPP-V1 ]	
+sum of mocount     :1521148 
+**********YANG Support Check**********
+
+YANG Support Available{"spfrer60001","10.3.128.192",840}.
+	{"spfrer60003","10.3.128.192",841}.
+	{"spfrer60005","10.3.128.192",842}.
+	{uname,"root"}.
+	{pwd,"12shroot"}.
+**********Genstats Information**********
+
+####Netsim config file and Crontab related Information####
+#!/bin/sh
+
+NSS_RELEASE=16.10
+ENV=VM
+
+#### NETSIM SERVERS #####
+SERVERS="ieatnetsimv6005-04"
+
+############ SIMULATION LISTS #############
+# LTE, SPITFIRE, MGW LIST
+ieatnetsimv6005_04_list="LTE07 LTE02 LTE01"
+# SGSN MME LIST
+ieatnetsimv6005_04_mme_list="CORE-ST-4.5K-SGSN-15B-CP01-V3x25"
+
+HOST=`hostname`
+HOST_NAME=`echo $HOST | sed s/-/_/g`
+LIST=`eval echo '$'${HOST_NAME}_list`
+# WARNING! COMMENT OUT THIS LINE IF SGSN MME LIST IS EMPTY
+MME_SIM_LIST=`eval echo '$'${HOST_NAME}_mme_list`
+
+######### PREDEFINED SCANNERS ############
+PREDEFINED_STATS_SCANNER_STATE=SUSPENDED
+
+############ SGSN MME TIMEZONE ############
+SGSN_TZ="GB-Eire"
+
+
+############ ROP INTERVAL ###############
+STATS_WORKLOAD_LIST="1:ALL 15:ALL"
+RECORDING_WORKLOAD_LIST="1:ALL 15:ALL"
+
+#### LIMITBANDWIDTH #####
+SET_BANDWIDTH_LIMITING=OFF
+BANDWIDTH_ERBS=3072
+BANDWIDTH_MSRBS_V2=3072
+BANDWIDTH_MGW=3072
+BANDWIDTH_SPITFIRE=1024
+NETWORK_DELAY=30
+
+########## FILE RETENTION PERIODS ########
+XML_RETENTION=1
+BIN_RETENTION=1
+
+############ Celltrace and UETRACE file generation ############
+LTE_UETRACE_LIST="${LTE_UETRACE_LIST} 154kb_ue_trace.gz:LTE01:1:4:1:64"
+LTE_UETRACE_LIST="${LTE_UETRACE_LIST} 154kb_ue_trace.gz:LTE02:1:64:65:64"
+LTE_UETRACE_LIST="${LTE_UETRACE_LIST} 154kb_ue_trace.gz:LTE03:1:64:129:128"
+LTE_UETRACE_LIST="${LTE_UETRACE_LIST} 154kb_ue_trace.gz:LTE04:1:64:257:256"
+LTE_UETRACE_LIST="${LTE_UETRACE_LIST} 154kb_ue_trace.gz:LTE05:1:16:513:16"
+
+LTE_CELLTRACE_LIST="celltrace_256k.bin.gz:1:1 celltrace_4.7M.bin.gz:1:3"
+MSRBS_V2_LTE_CELLTRACE_LIST="celltrace_256k.bin.gz:1:1 celltrace_4.7M.bin.gz:1:3"
+MSRBS_V2_LTE_UETRACE_LIST="154kb_ue_trace.gz:LTE07:1:4:97:16"
+MSRBS_V1_LTE_CELLTRACE_LIST="celltrace_256k.bin.gz:1:1 celltrace_4.7M.bin.gz:1:3"
+MSRBS_V1_LTE_UETRACE_LIST="154kb_ue_trace.gz:LTE37:1:4:97:16"
+
+
+################## LTE MCC MNC UE TRACE #################
+MCC_MNC="272F010"
+
+
+######################## CellTrace for MMEs ########################
+MME_EBS_FILE_LIST="1_ebs 2_ebs 3_ebs 4_ebs"
+MME_UETRACE_LIST="mme_uetrace:FIV1:1"
+MME_CTUM_LIST="mme_ctum:1"
+
+
+
+###################### PM DIRECTORY #####################
+PMDIR="/net/atns120dm2cge0/PM_Data/deployment/vapp/O16B"
+# DO NOT EDIT THIS FILE - edit the master and reinstall.
+# (/tmp/rec_new_crontab installed on Thu May 26 08:44:03 2016)
+# (Cron version V5.0 -- $Id: crontab.c,v 1.12 2004/01/23 18:56:42 vixie Exp $)
+0,15,30,45 * * * * /netsim_users/pms/bin/getStartedNodes 
+* * * * * /netsim_users/pms/bin/genStats -r 1 >> /netsim_users/pms/logs/genStats_1min.log 2>&1 
+0,15,30,45 * * * * /netsim_users/pms/bin/genStats -r 15 >> /netsim_users/pms/logs/genStats_15min.log 2>&1 
+0 * * * * /netsim_users/pms/bin/rmPmFiles >> /netsim_users/pms/logs/rmFiles.log 2>&1 
+* * * * * /netsim_users/pms/bin/lte_rec.sh -r 1 >> /netsim_users/pms/logs/lte_rec_1min.log 2>&1
+0,15,30,45 * * * * /netsim_users/pms/bin/lte_rec.sh -r 15 >> /netsim_users/pms/logs/lte_rec_15min.log 2>&1
